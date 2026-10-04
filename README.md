@@ -1,2 +1,91 @@
-# tipoprikol
-кароче мой сайт
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя карточка</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 320px;
+            margin: 0 auto;
+            padding: 24px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .card-title {
+            color: #333333;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        .card-subtitle {
+            color: #666666;
+            font-size: 14px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .card-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 12px 24px;
+        }
+
+        .card-button:hover {
+            background-color: #0056b3;
+        }
+        .not {
+            margin: 20px;
+            padding: 25px;
+            font-family: fantasy;
+        }
+        .nene {
+            background: red;
+            border: solid red 10px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        .bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card" align="center"> <h2 class="card-title">Гений <p
+    class="card-subtitle">ао <a
+    href="https://web.telegram.org/k/#@freezeflareee"
+    class="card-button">Написать мне</a> </div> <div class="not"> <h3
+    class="cart"></h3>
+
+        <p class="lene"> нажми</p>
+        <button class="nene"> нажмиии</button>
+</div>
+<video class="bg-video" autoplay muted loop preload="auto">
+    <source src="C:\Users\NotUser\Downloads\viideo.mp4.mp4">
+</video>
+</body>
+</html>
